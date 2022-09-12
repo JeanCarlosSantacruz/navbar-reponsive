@@ -1,0 +1,28 @@
+.botonesInicio{
+    position: relative;
+    top: 250px;
+    left: -700px;
+}
+
+.botonesInicio>button{
+    margin: 100px 10px;
+    margin-left: 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    background-position: left;
+    padding: .8%;
+    border: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+
+}
+
+.botonesInicio>button:hover{
+    cursor: pointer;
+    background-position: right;
+    background-color: #ff3c78;
+}
