@@ -4,14 +4,7 @@ import Buttonini from './components/ButtonIni/Buttonini'
 
 function App() {
   return (
-    <div className='App'>
-      <header class='header1'>
-        <Navbar/>
-      </header>
-      <div>
-        <Buttonini/>
-      </div>
-    </div>
+
   );
 }
 
