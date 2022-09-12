@@ -41,3 +41,16 @@
 }
 
 
+.nombreprin{
+  position: relative;
+  font-size: 80px;
+  top: 10px;
+  left: 100px;
+
+}
+
+.text1{
+  position: relative;
+  font-size: 30px;
+  left: 70px;
+}

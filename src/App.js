@@ -12,6 +12,18 @@ function App() {
         <Navbar/>
       </header>
       <div>
+        <h1 class='nombreprin'>
+          SOCCERONE
+        </h1>
+        <h1 class='text1' >
+          Todo lo que buscas
+        </h1>
+        <h1 class='text1' >
+          sobre futbol!
+        </h1>
+        </div>
+
+      <div>
         <Buttonini/>
       </div>
     </div>
