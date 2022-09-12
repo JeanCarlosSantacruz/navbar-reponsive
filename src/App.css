@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-image: url("");
+  background: rgb(219,174,169);
+  background: linear-gradient(176deg, rgba(219,174,169,1) 1%, rgba(255,255,255,0) 48%, rgba(0,0,0,1) 100%);
+
   height: 100vh;
   background-size: cover;
 }
@@ -43,14 +45,27 @@
 
 .nombreprin{
   position: relative;
-  font-size: 80px;
-  top: 10px;
-  left: -800px;
+  font-size: 120px;
+
+
 
 }
 
 .text1{
+  font-size: 120px;
   position: relative;
-  font-size: 30px;
-  left: -800px;
+  top: 20px;
+  font-size: 50px;
+  left: -700px;
+}
+
+.conte{
+  position: relative;
+
+  background: rgb(219,174,169);
+  background: linear-gradient(176deg, rgba(219,174,169,1) 1%, rgba(255,255,255,0) 48%, rgba(226,161,148,1) 100%);
+  border: 4px;
+  height: 150px;
+  width: 1000px;
+  left: 100px;
 }

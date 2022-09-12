@@ -11,17 +11,20 @@ function App() {
       <header class='header1'>
         <Navbar/>
       </header>
-      <div>
+      <div class='conte'>
         <h1 class='nombreprin'>
-          SOCCERONE
+            SOCCERONE
         </h1>
+      </div>
+      <div>
+
         <h1 class='text1' >
           Todo lo que buscas
         </h1>
         <h1 class='text1' >
           sobre futbol!
         </h1>
-        </div>
+      </div>
 
       <div>
         <Buttonini/>
