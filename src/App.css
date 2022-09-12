@@ -1,11 +1,10 @@
 .App {
-  text-align: center;
-  background-image: url("fondo.png");
   position: relative;
-    
-  height: 100vh;
-  background-size: cover;
+  text-align: center;
+  background-image: url("https://acortar.link/Ob4Jg3");
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -33,13 +32,43 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.soccer{
+  position: relative;
+  top: 20px;
+  left: -550px;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100px;
+
+  color: black;
 }
 
+.one{
+  position: relative;
+  top: -162px;
+  left: -226px;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 100px;
+  color: black;
+}
 
+.subText{
+  position: relative;
+  top: -200px;
+  font-size: 30px;
+  left: -600px;
+  font-size: 60px;
+
+}
+
+.subText2{
+  position: relative;
+  top: -265px;
+  font-size: 30px;
+  left: -680px;
+  font-size: 60px;
+}

@@ -9,9 +9,6 @@ function Navbar() {
     <>
       <Navb2>
         <img src={logo} className = "App-logo" alt= "logo" />
-        <div className="left-menu-div">
-          
-        </div>
         <div>
           <a href='/'>Ligas</a>
           <a href='/'>Torneos</a>
@@ -39,7 +36,7 @@ const Navb2 = styled.nav`
     color: #a0a0a0;
     font-size: 18px;
     letter-spacing: 0.5px;
-    padding: 0 10px;
+    padding: 0 30px;
   }
   a:after{
     content: "";

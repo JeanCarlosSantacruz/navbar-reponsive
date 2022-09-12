@@ -1,18 +1,19 @@
 .botonesInicio{
     position: relative;
-    top: 250px;
-    left: -700px;
+    top: -340px;
+    left: -630px;
 }
 
 .botonesInicio>button{
     margin: 100px 10px;
     margin-left: 20px;
     border-radius: 30px;
-    color: white;
     background-color: black;
     background-position: left;
     padding: .8%;
     border: none;
+    box-shadow: inset 0 0 0 0 #ff3c78;
+    transition: ease-out 0.4s;
     text-decoration: none;
     font-family: 'Poppins',sans-serif;
     color: #a0a0a0;
@@ -22,7 +23,7 @@
 }
 
 .botonesInicio>button:hover{
+    box-shadow: inset 200px 0 0 0 #ff3c78;
     cursor: pointer;
-    background-position: right;
-    background-color: #ff3c78;
+    color: aliceblue;
 }
