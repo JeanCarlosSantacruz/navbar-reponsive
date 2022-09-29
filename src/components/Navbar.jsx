@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <Navb2>
-        <img src={logo} className = "App-logo" alt= "logo" />
+        <img src={logo} alt= "logo" />
         <div>
           <a href='/'>Ligas</a>
           <a href='/'>Torneos</a>
@@ -37,6 +37,7 @@ const Navb2 = styled.nav`
     font-size: 18px;
     letter-spacing: 0.5px;
     padding: 0 30px;
+    transition: 0.7s;
   }
   a:after{
     content: "";
@@ -50,6 +51,7 @@ const Navb2 = styled.nav`
   }
   a:hover{
     color: #ffffff;
+    font-size: 24px;
   }
   a:hover:after{
     width: 100%;
@@ -58,5 +60,12 @@ const Navb2 = styled.nav`
   img{
     height: 90px;
     margin-right: 45px;
+    cursor: pointer;
+    transition: 0.7s;
   }
+  img:hover{
+    -webkit-transform:scale(1.5);transform:scale(1.5)
+    border: 5px dotted green;
+  }
+  
 `
