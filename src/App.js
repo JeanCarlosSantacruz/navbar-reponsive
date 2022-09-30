@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Buttonini from './components/ButtonIni/Buttonini'
-  
+import Buttonini from './components/ButtonIni/Buttonini';
+
 
 
 
@@ -24,7 +24,6 @@ function App() {
       <h2 className='subText2'>
         sobre futbol!
       </h2>
-      
       <div>
         <Buttonini/>
       </div>
