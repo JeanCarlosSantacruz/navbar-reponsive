@@ -9,6 +9,7 @@ import IniciarSesion from './components/IniciarSesion/IniciarSesion';
 import Selecciones from './components/Selecciones/Selecciones';
 import Torneos from './components/Torneos/Torneos';
 import {Routes, Route, BrowserRouter} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

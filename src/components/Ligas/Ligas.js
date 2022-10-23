@@ -1,13 +1,27 @@
 import Navbar from '../Navbar/Navbar';
 import './Ligas.css'
+import React from "react";
+import Cards from './cards';
 
 function Ligas(){
+  
   return<div>
     <Navbar/>
-    <h1>Bienvenido a las ligas</h1>
-    <form action="/">
-      <button className="Boton">Home</button>
-    </form>
+    <h2 className='t1'>
+      SOCCER
+    </h2>
+    <h2 className='t2'>
+      ONE
+    </h2>
+
+    <h2 className='ligas'>
+      LIGAS
+    </h2>
+
+    <Cards/>
+
+
+    
   </div>
 }
 
