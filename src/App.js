@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import Navbar2 from './components/Navbar/Navbar';
 import Buttonini from './components/ButtonIni/Buttonini';
 
 

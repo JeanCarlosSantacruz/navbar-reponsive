@@ -6,6 +6,7 @@ import About from './components/About';
 import QuienesSomos from './components/QuienesSomos';
 import Ligas from './components/Ligas/Ligas';
 import {Routes, Route, BrowserRouter} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
