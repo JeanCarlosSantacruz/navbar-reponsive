@@ -1,7 +1,11 @@
+import Navbar from "./Navbar/Navbar";
+
 function About(){
-  return <div>
-    About
+  return( 
+  <div>
+    <Navbar/>
   </div>
+  )
 }
 
 export default About;

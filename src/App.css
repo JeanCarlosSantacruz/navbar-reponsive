@@ -1,8 +1,11 @@
 .App {
   position: relative;
   text-align: center;
-  
+  width:100% !important;
+  background-color: whitesmoke;
+  background-image: url("./components/background-footer.svg");
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -39,7 +42,6 @@
 }
 
 .one{
-  
   position: relative;
   top: -162px;
   left: -226px;
