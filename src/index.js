@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import About from './components/About';
 import QuienesSomos from './components/QuienesSomos';
-import reportWebVitals from './reportWebVitals';
-import {
-  Routes,
-  Route,
-  BrowserRouter
-} from "react-router-dom";
+import Ligas from './components/Ligas/Ligas';
+import IniciarSesion from './components/IniciarSesion/IniciarSesion';
+import Selecciones from './components/Selecciones/Selecciones';
+import Torneos from './components/Torneos/Torneos';
+import {Routes, Route, BrowserRouter} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,12 +19,12 @@ root.render(
         <Route path="/" element={<App />}/>
         <Route path="/About" element={<About />}/>
         <Route path="/QuienesSomos" element={<QuienesSomos/>}/>
+        <Route path="/Ligas" element={<Ligas/>}/>
+        <Route path="/Torneos" element={<Torneos/>}/>
+        <Route path="/Selecciones" element={<Selecciones/>}/>
+        <Route path="/IniciarSesion" element={<IniciarSesion/>}/>
+        
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
